@@ -1,30 +1,69 @@
-# React + TypeScript + Vite
+<div align="center"> 
+	<img alt="ignite-timer" title="#ignite-timer" src="./src/assets/ignite_timer.png" />
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center"> 
+	<img alt="ignite-timer" title="#ignite-timer" src="./src/assets/ignite_timer_history.png" />
+</div>
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⏳ ignite-timer - Counter to use with Pomodoro technique.
 
-## Expanding the ESLint configuration
+Project developed during the ReactJS Ignite Course from [Rocketseat](https://www.rocketseat.com.br/ignite).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- [x] Create a timer
+- [x] Interrupt timer
+- [x] Log timer history
+- [x] Persist data in local storage
+
+---
+
+## How it works
+
+### Pre-requisites
+
+Before you begin, you will need to have the following tools installed on your machine:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+In addition, it is good to have an editor to work with the code like [VSCode](https://code.visualstudio.com/)
+
+#### Running the web application (Frontend)
+
+```bash
+
+# Clone this repository
+$ git clone git@github.com:bfukumori/ignite-timer.git
+
+# Access the project folder in your terminal
+$ cd ignite-timer
+
+# Install the dependencies
+$ npm install
+
+# Run the application in development mode
+$ npm run dev
+
+# The app will open on the port: 3000 - go to http://localhost:3000/
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
+
+## Tech Stack
+
+The following tools were used in the construction of the project:
+
+#### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+- **[PhosphorIcons](https://phosphoricons.com/)**
+- **[date-fns](https://date-fns.org/)**
+- **[Vite](https://vitejs.dev/)**
+- **[React Router](https://v5.reactrouter.com/web/guides/quick-start)**
+- **[Immer](https://immerjs.github.io/immer/)**
+- **[Styled Components](https://styled-components.com/)**
+- **[Zod](https://zod.dev/)**
+- **[React Hook Form](https://react-hook-form.com/)**
