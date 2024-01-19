@@ -1,3 +1,7 @@
+<h3 align="center">
+  Ignite Timer
+</h3>
+---
 <div align="center"> 
 	<img alt="ignite-timer" title="#ignite-timer" src="./src/assets/ignite_timer.png" />
 </div>
