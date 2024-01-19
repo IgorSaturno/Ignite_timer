@@ -14,18 +14,18 @@
 
 ## About
 
-⏳ ignite-timer - Counter to use with Pomodoro technique.
+⏳ ignite-timer - Counter para usar com a técnica Pomodoro.
 
-Project developed during the ReactJS Ignite Course from [Rocketseat](https://www.rocketseat.com.br/ignite).
+Projeto desenvolvido durante o Curso ReactJS Ignite da [Rocketseat](https://www.rocketseat.com.br/ignite).
 
 ---
 
 ## Features
 
-- [x] Create a timer
-- [x] Interrupt timer
-- [x] Log timer history
-- [x] Persist data in local storage
+- [x] Criar um Cronômetro
+- [x] Interromper Cronômetro
+- [x] Registrar histórico do cronômetro
+- [x] Persistir dados no local storage
 
 ---
 
@@ -33,27 +33,26 @@ Project developed during the ReactJS Ignite Course from [Rocketseat](https://www
 
 ### Pre-requisites
 
-Before you begin, you will need to have the following tools installed on your machine:
+Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
-In addition, it is good to have an editor to work with the code like [VSCode](https://code.visualstudio.com/)
 
 #### Running the web application (Frontend)
 
 ```bash
 
-# Clone this repository
+# Clone o repositório
 $ git clone git@github.com:bfukumori/ignite-timer.git
 
-# Access the project folder in your terminal
+# Acesse o projeto no seu terminal
 $ cd ignite-timer
 
-# Install the dependencies
+# Instale as dependências
 $ npm install
 
-# Run the application in development mode
+# Execute o aplicativo em modo de desenvolvimento
 $ npm run dev
 
-# The app will open on the port: 3000 - go to http://localhost:3000/
+# O aplicativo será aberto na porta: 3000 - go to http://localhost:3000/
 
 ```
 
@@ -61,7 +60,7 @@ $ npm run dev
 
 ## Tech Stack
 
-The following tools were used in the construction of the project:
+As seguintes ferramentas foram utilizadas na construção do projeto:
 
 #### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
 
