@@ -72,3 +72,5 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 - **[Styled Components](https://styled-components.com/)**
 - **[Zod](https://zod.dev/)**
 - **[React Hook Form](https://react-hook-form.com/)**
+
+Link do projeto: https://ignitetimerweb.netlify.app/
